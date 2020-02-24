@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttonHW1 = button
-        buttonHW1.setOnClickListener{ Click(buttonHW1)}
+        buttonHW1.setOnClickListener{ сlick(buttonHW1)}
     }
 
-    fun Click(view: View) {
+    fun сlick(view: View) {
         val intent = Intent(this, Dz1Activity::class.java)
         startActivity(intent)
     }
