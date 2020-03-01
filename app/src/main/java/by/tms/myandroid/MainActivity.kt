@@ -13,12 +13,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttonHW1 = button
-        buttonHW1.setOnClickListener{ сlick(buttonHW1)}
-    }
+        buttonHW1.setOnClickListener{
+            startActivity(Intent(this,Dz1Activity::class.java))}
 
-    fun сlick(view: View) {
-        val intent = Intent(this, Dz1Activity::class.java)
-        startActivity(intent)
-    }
+            val buttonHW2 = button2
+        buttonHW2.setOnClickListener{
+        startActivity(Intent(this,Dz2Activity::class.java))}
 
+        val buttonHW3 = button3
+        buttonHW3.setOnClickListener {
+            startActivity(Intent(this, Dz2Activity_Animation::class.java)) }
+}
 }

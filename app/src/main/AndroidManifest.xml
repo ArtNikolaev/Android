@@ -20,6 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Dz2Activity" />
+        <activity android:name=".Dz2Activity_Animation" />
     </application>
 
 </manifest>
